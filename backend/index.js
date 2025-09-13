@@ -13,7 +13,7 @@ app.use(express.json());
 
 app.use(cors(
     {
-        origin: 'https://saas-notes-gamma.vercel.app',
+        origin:'https://saas-notes-gamma.vercel.app',
         credentials: true
     }
 ));
